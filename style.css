@@ -1,0 +1,144 @@
+html, body {
+    font-family: Arial, serif;
+    font-size: 16px;
+   }
+
+.Top_Menu {
+    background-color: #A9A9A9;
+    justify-content: start;
+    
+    }
+
+ul {
+     list-style: none;
+     display: block;
+     margin: 0px;
+     padding: 0px;
+    }
+
+ul:after {
+    display: block;
+    float: none;
+    content: ' ';
+    clear: both;
+}
+
+ul.mmenuu>li {
+    float: left;
+    position: relative;
+    margin-right: 50px;
+    margin-top: 10px;
+}
+
+ul.mmenuu>li>a {
+    display: block;
+    color: #fff;
+    padding: 10px;
+    text-decoration: none;
+    background-color: #A9A9A9;
+}
+
+ul.mmenuu>li>a:hover {
+    background-color: #A9A9A9;
+}
+
+ul.ssubmenuu {
+    position: absolute;
+    width: 240px;
+    top: 18px;
+    left: 0px;
+    display: none;
+    background-color: white;
+}
+
+ul.ssubmenuu>li {
+    display: block;
+}
+
+ul.ssubmenuu>li>a {
+    display: block;
+    text-decoration: none;
+    padding: 10px;
+    color: black;
+    background-color: #A9A9A9;
+}
+
+ul.ssubmenuu>li>a:hover {
+    background-color: #A9A9A9;
+    text-decoration: underline;
+}
+
+ul.mmenuu>li:hover>ul.ssubmenuu {
+    display: block;
+}
+.avatar {
+    display: flex;
+    background-color: #DCDCDC;
+}
+.line {
+    border: none;
+    background-color: black;
+    color: black;
+    height: 2px;
+}
+.image {
+    padding-left: 75px;
+    padding-top: 55px;
+}
+.nickname{
+    padding-left: 150px;
+    padding-top: 85px;
+    text-align: center;
+}
+.abaut_me {
+    display: block;
+    background-color: #F5F5F5;
+}
+.Contacts_main {
+    display: flex;
+}
+.cont {
+    padding-left: 75px;
+    padding-top: 15px;
+}
+.summary_main {
+    padding-left: 230px;
+    padding-top: 15px;
+}
+.skills_main {
+    display: flex;
+}
+.skl {
+    padding-left: 75px;
+    padding-top: 15px;
+}
+.code {
+    padding-left: 130px;
+    padding-top: 15px;
+}
+.footer_style {
+    display: flex;
+    justify-content: space-between;
+    background-color: #141818;
+}
+.menu_footer {
+    display: flex;
+}
+.menu_footer a {
+    text-decoration: none;
+}
+.punkt_menu1 {
+    padding-right: 200px;
+    padding-top: 15px;
+}   
+.punkt_menu2 {
+    padding-left: 50px;
+    padding-top: 15px;
+}
+h1 {
+    color: #808080;
+}
+h3 {
+color:#fff;
+size:5px;
+}
