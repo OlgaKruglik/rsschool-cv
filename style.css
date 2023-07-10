@@ -1,6 +1,8 @@
 html, body {
     font-family: Arial, serif;
     font-size: 16px;
+    max-width: 900px;
+    margin: auto;
    }
 
 .Top_Menu {
@@ -35,8 +37,8 @@ ul.mmenuu>li>a {
     color: #fff;
     padding: 10px;
     text-decoration: none;
-    background-color: #A9A9A9;
-}
+    background-color: #a9a9a9;
+    }
 
 ul.mmenuu>li>a:hover {
     background-color: #A9A9A9;
@@ -45,7 +47,7 @@ ul.mmenuu>li>a:hover {
 ul.ssubmenuu {
     position: absolute;
     width: 240px;
-    top: 18px;
+    top: 20px;
     left: 0px;
     display: none;
     background-color: white;
@@ -59,9 +61,9 @@ ul.ssubmenuu>li>a {
     display: block;
     text-decoration: none;
     padding: 10px;
-    color: black;
-    background-color: #A9A9A9;
-}
+    color: #2F4F4F;
+    background-color: #5F9EA0;
+    }
 
 ul.ssubmenuu>li>a:hover {
     background-color: #A9A9A9;
