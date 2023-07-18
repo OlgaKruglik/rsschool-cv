@@ -1,0 +1,298 @@
+/* inter-regular - latin */
+@font-face {
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/inter-v12-latin-regular.woff2') format('woff2');
+    /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* inter-500 - latin */
+@font-face {
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../fonts/inter-v12-latin-500.woff2') format('woff2');
+    /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* inter-700 - latin */
+@font-face {
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/inter-v12-latin-700.woff2') format('woff2');
+    /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* forum-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Forum';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/forum-v16-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+
+html, body {
+    font-family: Inter;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 1.2;
+    font-weight: normal;                                                                                
+    background-color: #FFF; 
+    max-width: 1440px;
+    margin: auto;
+   }
+.wraper {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+/* header style start */
+.header {
+    position: fixed;
+    top: 0;
+    max-height: 600px;
+}
+.wraper_header {
+    width: 1440px;
+    justify-content: space-between;
+    background-color: #0C0C0E;
+    height: 90px;
+    display: flex;
+    align-items: center
+}
+.wraper_header h1 {
+    color: #FFF;
+    font-family: Forum;
+    font-size: 30px;
+    font-style: normal;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+.header-container {
+    display: flex;
+    float: right;
+    }
+.header_list {
+    display: flex;
+    margin: 0 auto;
+}
+
+.menu ul li:hover {
+    font-weight: bold;
+    transition: 0.3s linear;
+}
+
+.header_item {
+    margin-left: 30px;
+}
+.header_item:last-child {
+    margin-right: 0px;
+}
+.header-link {
+    font-weight: 400;
+    line-height: 50px; 
+    color: white;
+    text-decoration: none;
+}
+.header_item a::before {
+    display: block;
+    content: attr(title);
+    font-weight: bold;
+    height: 0;
+    overflow: hidden;
+    visibility: hidden;
+}
+.header-link:hover {
+    color:white;
+    font-weight: bold;
+    transition: 0.3s linear;
+}
+
+/* ul icon start*/
+.header_item_icon {
+    background-color: #0C0C0E;
+    flex-shrink: 0;
+    display: flex;
+    margin: 0;
+    padding: 11px 20px 11px 40px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    width: 80px;
+    height: 115px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    right:0;
+}
+
+.dropdown-content a {
+    color: #000;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    font-weight: 400;
+    line-height: 20px;
+    padding: 5px;
+}
+.dropdown-content h3 {
+    margin: 5px 0;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px;
+    text-align: center;
+}
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.line {
+    border: none;
+    background-color: #BB945F;;
+    width: 40px;
+    height: 1px;
+    flex-shrink: 0;
+    margin: 5px auto;
+}
+dropdown-content nav-link {
+
+}
+
+
+
+/* header style end */
+
+/* intro style start */
+
+.intro {
+    height: 600px;
+    background: url('../img/svg/Welcome.png') no-repeat; 
+    margin-top: 90px;
+    padding-top: 220px;
+}
+
+.wraper_main {
+    width: 600px;
+    height: 220px;
+    padding: 35px 40px;
+    background-color: #0C0C0E;
+}
+.into_title {
+    color: #FFF;
+    text-align: center;
+    font-family: Forum;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 50px; /* 125% */
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+/* intro style end */
+
+/* about style start */
+.main_about {
+    display: block;
+}
+
+.about-text {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.about-text h2{
+    color: #0C0C0E;
+    font-family: Forum;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+    margin: 20px;
+}
+
+
+.main_line {
+    border: none;
+    background-color: #0C0C0E;
+    width: 50px;
+    height: 1px;
+    flex-shrink: 0;
+    margin: auto;
+}
+
+.main_about_p {
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    margin: 40px 0 20px 0;
+}
+.image-items {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+.image-library{
+    margin: 20px 20px 32px;
+}
+
+.imege-items img {
+    height: 450px;
+    width: 560;
+}
+.pagination-panel {
+    display: flex;
+    width: fit-content;
+    flex-wrap: wrap-reverse;
+    margin: 40px auto;
+}
+.pagination-container {
+    height: 26px;
+    width: 26px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.carousel-pagination {
+    height: 16px;
+    width: 16px;
+    border-radius: 8px;
+    background-color: #0C0C0E;
+}
+.carousel-pagination.active {
+    background-color: #BB945F;
+}
+/* about style end */
+
+/* Favorites style start */
+
+
+/* Favorites style end */
