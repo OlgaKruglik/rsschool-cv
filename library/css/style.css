@@ -282,8 +282,8 @@ html, body {
     border-radius: 8px;
     background-color: #0C0C0E;
     }
-    .carousel-pagination.active {
-        background-color: #BB945F;
+.carousel-pagination.active {
+    background-color: #BB945F;
     } 
 /* about style end */
 
@@ -322,19 +322,19 @@ html, body {
 ul,
 li {
     list-style: none;
-    display: inline-block;
     display: flex;
     width: fit-content;
     flex-wrap: wrap-reverse;
-    border-radius: 8.5px;
+    margin: 0 90px 0 0;
     }
-
+.season ul li {
+    border-radius: 17px;
+    color: #000;
+}
 label {
     display: inline-block;
     cursor: pointer;
     position: relative;
-    padding-left: 37px;
-    margin-right: 90px;
     color: #000;
     font-family: Inter;
     font-size: 20px;
@@ -342,6 +342,7 @@ label {
     line-height: normal;
     height: 26px;
     width: 26px;
+    margin-left: 20px;
 }
 
 
@@ -349,9 +350,9 @@ label {
     font-weight: bold;
     transition: 0.3s linear;
 }
-input[type=radio] {
+/*input[type=radio] {
     display: none;
-}
+}*/
 
 label:before {
    
@@ -361,7 +362,7 @@ label:before {
     margin: 3px 0px 1px 0;
     position: absolute;
     left: 0;
-    background-color: #fff;
+    background-color: #000;
     border: 1px solid #000;
     z-index: 0;
 }
