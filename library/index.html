@@ -55,7 +55,8 @@
     </header>
 
     <main class="main">
-        <div class="intro">
+        <div class="intro" id="main_intro">
+
             <div class="wraper_main">
                 <h1 class="into_title">
                     Welcome <br>to the Brooklyn Library
@@ -75,7 +76,7 @@
                     The Brooklyn Library is a free workspace, a large number of books and a cozy coffee shop inside
                 </p>
 
-            <div class="image-items">
+            <div class="image-items" id="myCarousel">
                 <div class="image-library">
                     <img src="../library/img/svg/main-about1.jpg" alt="image library">
                 </div>
@@ -99,14 +100,51 @@
                 </div>
             </div>
 
+        </section>
+
+        <section class="Favorites">
             <div class="about-text">
                 <h2>
                     Favorites                        
                 </h2>
-                <div class="main_line"></line>
+            <div class="main_line"></line>
             </div>
-
+            
+            <div class="Pick_favorites_text">
+                <h4>
+                    Pick favorites of season
+                </h4>
+            </div>
+            <ul class="season">
+                <li>
+                    <div class="radio active">
+                        <input id="payment_method_bacs" type="radio" class="input-radio" name="payment_method" value="bacs"
+                            data-order_button_text="" checked="checked">
+                        <label for="payment_method_bacs">Winter</label>
+                     </div>
+                </li>
+                <li>
+                    <div class="radio">
+                        <input id="payment_method_bacs" type="radio" class="input-radio" name="payment_method" value="bacs"
+                            data-order_button_text="" checked="checked">
+                        <label for="payment_method_bacs">Spring</label>
+                    </div>
+                </li>
+                <li>
+                    <div class="radio">
+                        <input id="payment_method_bacs" type="radio" class="input-radio" name="payment_method" value="bacs"
+                            data-order_button_text="" checked="checked">
+                        <label for="payment_method_bacs">Summer</label>
+                    </div>
+                </li><li>
+                    <div class="radio">
+                        <input id="payment_method_bacs" type="radio" class="input-radio" name="payment_method" value="bacs"
+                            data-order_button_text="" checked="checked">
+                        <label for="payment_method_bacs">Autumn</label>
+                    </div>
+                </li>
         </section>
+        
 
 
     </main>

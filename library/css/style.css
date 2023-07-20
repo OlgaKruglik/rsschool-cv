@@ -179,12 +179,6 @@ html, body {
     flex-shrink: 0;
     margin: 5px auto;
 }
-dropdown-content nav-link {
-
-}
-
-
-
 /* header style end */
 
 /* intro style start */
@@ -195,6 +189,10 @@ dropdown-content nav-link {
     margin-top: 90px;
     padding-top: 220px;
 }
+/* .main-intro {
+    background: linear-gradient(Black 50%, White);
+    z-index: 0;
+} */
 
 .wraper_main {
     width: 600px;
@@ -256,13 +254,10 @@ dropdown-content nav-link {
 }
 .image-items {
     display: flex;
-    margin: 0;
-    padding: 0;
 }
 .image-library{
     margin: 20px 20px 32px;
 }
-
 .imege-items img {
     height: 450px;
     width: 560;
@@ -272,7 +267,7 @@ dropdown-content nav-link {
     width: fit-content;
     flex-wrap: wrap-reverse;
     margin: 40px auto;
-}
+    }
 .pagination-container {
     height: 26px;
     width: 26px;
@@ -280,19 +275,109 @@ dropdown-content nav-link {
     justify-content: center;
     align-items: center;
     cursor: pointer;
-}
+    }
 .carousel-pagination {
     height: 16px;
     width: 16px;
     border-radius: 8px;
     background-color: #0C0C0E;
-}
-.carousel-pagination.active {
-    background-color: #BB945F;
-}
+    }
+    .carousel-pagination.active {
+        background-color: #BB945F;
+    } 
 /* about style end */
 
 /* Favorites style start */
+.Favorites {
+    display: block;
+    margin: 20px;
+    height: 837px;
+}
+.Pick_favorites_text {
+    margin: 20px 0;
+    text-align: left;
+}
+.h4 {
+    color: #000;
+    text-align: left;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+/* form style start */
+.season {
+    display: flex;
+    flex-wrap: wrap;
+}
+/*.season_form_wrap {
+    display: flex;
+    flex-wrap: wrap;
+}*/
+
+.seasons {
+    display: flex;
+}
+ul,
+li {
+    list-style: none;
+    display: inline-block;
+    display: flex;
+    width: fit-content;
+    flex-wrap: wrap-reverse;
+    border-radius: 8.5px;
+    }
+
+label {
+    display: inline-block;
+    cursor: pointer;
+    position: relative;
+    padding-left: 37px;
+    margin-right: 90px;
+    color: #000;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: normal;
+    height: 26px;
+    width: 26px;
+}
+
+
+.season ul li:hover {
+    font-weight: bold;
+    transition: 0.3s linear;
+}
+input[type=radio] {
+    display: none;
+}
+
+label:before {
+   
+    display: inline-block;
+    width: 17px;
+    height: 17px;
+    margin: 3px 0px 1px 0;
+    position: absolute;
+    left: 0;
+    background-color: #fff;
+    border: 1px solid #000;
+    z-index: 0;
+}
+
+.radio label:before {
+    border-radius: 8px;
+}
+
+input[type=radio]:checked+label:before {
+    border-radius: 4px;
+    color: #000;
+    line-height: 18px;
+}
+
+
+
 
 
 /* Favorites style end */
