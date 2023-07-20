@@ -95,6 +95,7 @@ html, body {
 
 .header_item {
     margin-left: 30px;
+    text-align: center;
 }
 .header_item:last-child {
     margin-right: 0px;
@@ -116,7 +117,7 @@ html, body {
 .header-link:hover {
     color:white;
     font-weight: bold;
-    transition: 0.3s linear;
+    transition: 0.2s linear;
 }
 
 /* ul icon start*/
@@ -221,10 +222,11 @@ html, body {
 
 .about-text {
     margin-top: 20px;
-    text-align: center;
+    
 }
 
 .about-text h2{
+    text-align: center;
     color: #0C0C0E;
     font-family: Forum;
     font-size: 40px;
@@ -307,78 +309,74 @@ html, body {
     line-height: normal;
 }
 /* form style start */
-.season {
-    display: flex;
-    flex-wrap: wrap;
-}
-/*.season_form_wrap {
-    display: flex;
-    flex-wrap: wrap;
-}*/
-
 .seasons {
-    display: flex;
+    margin-top: 40px;
 }
-ul,
-li {
-    list-style: none;
-    display: flex;
-    width: fit-content;
-    flex-wrap: wrap-reverse;
-    margin: 0 90px 0 0;
-    }
-.season ul li {
-    border-radius: 17px;
-    color: #000;
-}
-label {
+
+.radio-item {
     display: inline-block;
-    cursor: pointer;
     position: relative;
+    padding: 5px;
+    margin-right: 90px;
+}
+
+.radio-item *{
+    cursor: pointer;
+}
+
+.radio-item input[type='radio'] {
+    display: none;
+}
+
+.radio-item label {
     color: #000;
     font-family: Inter;
     font-size: 20px;
+    font-style: normal;
     font-weight: 400;
     line-height: normal;
-    height: 26px;
-    width: 26px;
-    margin-left: 20px;
 }
 
-
-.season ul li:hover {
-    font-weight: bold;
-    transition: 0.3s linear;
+.radio-item label:hover {
+    font-weight: 700;
+    transition: 0.2s linear;
 }
-/*input[type=radio] {
-    display: none;
-}*/
 
-label:before {
-   
+.radio-item span {
     display: inline-block;
+    text-align: center;
+}
+.radio-item span::before {
+    display: block;
+    content: attr(title);
+    font-weight: 700;
+    height: 0;
+    overflow: hidden;
+    visibility: hidden;
+}
+
+.radio-item label:before {
+    content: " ";
+    display: inline-block;
+    position: relative;
+    top: 2px;
+    margin-right: 20px;
     width: 17px;
     height: 17px;
-    margin: 3px 0px 1px 0;
+    border-radius: 8.5px;
+    border: 2px solid #000;
+    background-color: transparent;
+}
+
+.radio-item input[type=radio]:checked+label:after {
+    border-radius: 4.5px;
+    width: 7px;
+    height: 7px;
     position: absolute;
-    left: 0;
-    background-color: #000;
-    border: 1px solid #000;
-    z-index: 0;
+    top: 13.75px;
+    left: 10px;
+    content: " ";
+    display: block;
+    background: #000;
 }
-
-.radio label:before {
-    border-radius: 8px;
-}
-
-input[type=radio]:checked+label:before {
-    border-radius: 4px;
-    color: #000;
-    line-height: 18px;
-}
-
-
-
-
-
 /* Favorites style end */
