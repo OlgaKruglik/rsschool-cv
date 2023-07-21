@@ -470,6 +470,9 @@ a.button:active {
         bottom: -1px;
         right: -40px;
 }
-
+.second_book_text_none {
+    display: flex;
+    display: none;
+}
 /* favorites-items style end */
 /* Favorites style end */
