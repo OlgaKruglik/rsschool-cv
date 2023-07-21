@@ -178,7 +178,7 @@ html, body {
     width: 40px;
     height: 1px;
     flex-shrink: 0;
-    margin: 5px auto;
+   
 }
 /* header style end */
 
@@ -190,10 +190,6 @@ html, body {
     margin-top: 90px;
     padding-top: 220px;
 }
-/* .main-intro {
-    background: linear-gradient(Black 50%, White);
-    z-index: 0;
-} */
 
 .wraper_main {
     width: 600px;
@@ -235,7 +231,6 @@ html, body {
     line-height: 40px;
     margin: 20px;
 }
-
 
 .main_line {
     border: none;
@@ -308,7 +303,7 @@ html, body {
     font-weight: 700;
     line-height: normal;
 }
-/* form style start */
+/* input style start */
 .seasons {
     margin-top: 40px;
 }
@@ -379,4 +374,102 @@ html, body {
     display: block;
     background: #000;
 }
+/*  input style end*/
+/* start style favorites-items */
+
+.second_book {
+    display: blok;
+    width: 1400px;
+    height: 1150px;
+    flex-shrink: 0;
+    margin: 40px 0px;
+}
+.second_book_text {
+    display: flex;
+}
+.bg-description {
+    display: block;
+    position: relative;
+    width: 550px;
+    height: 555px;
+    flex-shrink: 0;
+    border: 1px solid #000;
+    background: #FFF;
+    padding: 15px 0 15px 20px;
+    margin-right: 260px;
+    margin-bottom: 40px;
+}
+.bg-description span {
+    color: #000;
+    font-family: Forum;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+}
+.bg-description line {
+    width: 60px;
+    height: 1px;
+    color: #BB945F;
+    margin: 0;
+}
+.bg-description h3 {
+    height: 80px;
+    width: 355px;
+    color: #000;
+    font-family: Inter;
+    line-height: 40px;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    margin: 20px 0;
+    padding: auto;
+}
+.bg-description p {
+    width: 355px;
+    color: #000;
+    font-family: Inter;
+    font-size: 15px;
+    line-height: 40px;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    margin: 15px 0;
+}
+.button {
+    margin: 24px 0;
+}
+a.button {
+    color: #0C0C0E;
+    text-align: center;
+    font-family: Inter;
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-decoration: none;
+    padding: 9px 27px;
+    border-radius: 2px;
+    border: 1px solid #0C0C0E;
+    transition: 0.2s;
+    margin: 15px 0;
+}
+a.button:hover {
+    color: #BB945F;
+    text-decoration: underline;
+    border: 1px solid #BB945F;
+}
+
+a.button:active {
+    color: #BB945F;
+    text-decoration: underline;
+    border: 1px solid #BB945F;
+}
+.book_items {
+    position: absolute;
+        bottom: -1px;
+        right: -40px;
+}
+
+/* favorites-items style end */
 /* Favorites style end */
