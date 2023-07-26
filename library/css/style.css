@@ -801,33 +801,43 @@ a.button:active {
     cursor: pointer;
 
 }
+
+/* end form style */
+
+
+/* footer style start */
 .footer {
     display: block;
     background-color: #0C0C0E;
     width: 1440px;
     height: 250px;
     flex-shrink: 0;
+    padding: 20px;
 }
-/* end form style */
-
-
-/* footer style start */
 .Frame_6 {
     display: flex;
     width: 1400px;
-    height: 90px;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
     gap: 10px;
     flex-shrink: 0;
-    padding: 20px;
+ 
 }
-.frame_6_p {
-    width: 229px;
+.frame_5 {
+    display: flex;
+    width: 1400px;
+    height: 40px;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 1022px;
     flex-shrink: 0;
+    margin: 0;
 }
-.frame_6_p p {
+.frame_5_Mon-Fri {
+    width: 229px;
+}
+.frame_5_Mon-Fri p {
     color: #FFF;
     font-family: Inter;
     font-size: 15px;
@@ -835,6 +845,83 @@ a.button:active {
     font-weight: 400;
     line-height: 20px;
 } 
+.frame_5_Mon-Fri_right {
+    width: 149px;
+}
+.frame_5_Mon-Fri_right p {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: right;
+}
+.frame_4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1147px;
+}
+.social_media {
+    display: flex;
+    width: 102px;
+    height: 24px;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 15px;
+}
+.sat-sun {
+    width: 149px;
+}
+.sat-sun p {
+    color: #FFF;
+    text-align: right;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+}
+.line_3 {
+    width: 1400px;
+    height: 1px;
+    background: #FFF;
+    margin: 30px 0;
+}
+.footer-rss {
+    display: flex;
+    justify-content: space-between;
+    width: 1400px;
+    height: 22px;
+    flex-shrink: 0;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+    letter-spacing: 1.9px;
+}
+.rs-school {
+    display: flex;
+    width: 300px;
+    height: 22px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+.username {
+    display: flex;
+    width: 113px;
+    height: 22px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
 
 /* footer style end */
 /* Digital Library Cards style end */
