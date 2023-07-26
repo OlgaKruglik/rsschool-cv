@@ -1,0 +1,257 @@
+html,
+body {
+    font-family: Inter;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 1.2;
+    font-weight: normal;
+    background-color: #FFF;
+    max-width: 1440px;
+    margin: auto;
+}
+h2 {
+    text-align: center;
+    color: #0C0C0E;
+    font-family: Forum;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+    margin: 20px;
+}
+.main_line {
+    border: none;
+    background-color: #0C0C0E;
+    width: 50px;
+    height: 1px;
+    flex-shrink: 0;
+    margin: auto;
+}
+.LibraryCards {
+    display: block;
+    width: 1420px;
+    height: 628px;
+}
+
+.find_card {
+    width: 600px;
+    height: 386px;
+    flex-shrink: 0;
+    padding: 0 20px;
+    margin-top: 61px;
+    display: flex;
+}
+
+.library_card {
+    display: block;
+    width: 600px;
+    height: 453px;
+}
+
+.find_card h4 {
+    font-family: Inter;
+    font-size: 30px;
+    font-weight: 400;
+    letter-spacing: 0.6px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.gold_bg {
+    width: 560px;
+    height: 272px;
+    flex-shrink: 0;
+    background: #BB945F;
+    padding: 20px 20px;
+}
+
+.whire_bg {
+    width: 600px;
+    height: 386px;
+    flex-shrink: 0;
+    border: 3px solid #BB945F;
+    background: #FFF;
+    padding: 20px;
+}
+
+/* start form style */
+
+.form-group {
+    margin-bottom: 10px;
+}
+
+.form-group label {
+    display: block;
+    color: #000;
+    font-family: Forum;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 50px;
+    letter-spacing: 0.6px;
+    margin-bottom: 20px;
+
+}
+
+.form-group input {
+    width: 300px;
+    padding: 5px;
+    border-radius: 2px;
+    border: 1px solid #0C0C0E;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    background: #FFF;
+    width: 100%;
+    width: 520px;
+    height: 66px;
+}
+
+.form-buttons {
+    display: inline-flex;
+    align-items: flex-end;
+    padding: 20px 139px;
+    margin-bottom: 10px;
+}
+
+.form-buttons button {
+    width: 100px;
+    background-color: #FFF;
+
+}
+
+
+#Check_the_card-button {
+    color: #000;
+    width: 242px;
+    height: 44px;
+    padding: 10px 40px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+#Check_the_card-button:hover {
+    background-color: #FFF;
+    font-weight: bold;
+    transition: 0.3s linear;
+
+}
+
+.cards_profile {
+    display: flex;
+}
+
+/* form style end*/
+
+/* start style get_a_card*/
+.get_a_card {
+    display: block;
+    width: 456px;
+    height: 293px;
+    flex-shrink: 0;
+    margin-left: 344px;
+
+}
+
+.get_card_text {
+    display: block;
+    text-align: right;
+}
+
+.get_card_text p {
+    color: #000;
+    font-family: Forum;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.6px;
+    margin-bottom: 35px;
+    text-align: right;
+}
+
+.get_card_text span {
+    text-align: right;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 0.4px;
+    margin-bottom: 35px;
+}
+
+.form_buttonn {
+    display: flex;
+    justify-content: space-between;
+    width: 170px;
+    margin: 0;
+
+}
+
+.buttonn {
+    display: flex;
+    width: 75px;
+    height: 30px;
+    cursor: pointer;
+    transition: 0.2s;
+
+}
+
+.buttonn button {
+    width: 100px;
+    background-color: #FFF;
+
+}
+
+.buttonn span {
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1px;
+    margin: 0;
+}
+
+#sign_up-buttonn {
+    color: #000;
+    width: 242px;
+}
+
+#sign_up-buttonn:hover {
+    background-color: #FFF;
+    font-weight: bold;
+    transition: 0.3s linear;
+    cursor: pointer;
+
+}
+
+.button::after {
+    width: 100%;
+    border-radius: 2px;
+    border: 1px solid #0C0C0E;
+}
+
+#log_in-buttonn {
+    color: #000;
+    width: 242px;
+}
+
+#log_in-buttonn:hover {
+    background-color: #FFF;
+    font-weight: bold;
+    transition: 0.3s linear;
+    cursor: pointer;
+
+}
+
+#Profile-buttonn {
+    color: #000;
+    width: 242px;
+}
+
+#Profile-buttonn:hover {
+    background-color: #FFF;
+    font-weight: bold;
+    transition: 0.3s linear;
+    cursor: pointer;
+
+}

@@ -599,7 +599,6 @@ a.button:active {
     height: 628px;
 }
 .find_card {
-    width: 600px;
     height: 386px;
     flex-shrink: 0;
     padding:  0 20px;
@@ -693,15 +692,23 @@ a.button:active {
     transition: 0.3s linear;
 
 }
+
+/* form style end*/
+
+/* start style get_a_card*/
 .get_a_card {
     display: block;
     width: 456px;
     height: 253px;
     flex-shrink: 0;
-    margin-left: 344px;
     
 }
-.get_a_card p {
+.get_card_text {
+    display: block;
+    text-align: right;
+
+}
+.get_card_text p {
     color: #000;
     text-align: center;
     font-family: Forum;
@@ -710,10 +717,10 @@ a.button:active {
     font-weight: 400;
     line-height: normal;
     letter-spacing: 0.6px;
-    text-align: right;
     margin-bottom: 35px;
+    text-align: right;
 }
-.get_a_card span {
+.get_card_text span {
     color: #000;
     text-align: right;
     font-family: Inter;
@@ -722,35 +729,112 @@ a.button:active {
     font-weight: 400;
     line-height: 40px; 
     letter-spacing: 0.4px;
-    text-align: right;
     margin-bottom: 35px;
 }
-.buttons {
+.form_buttonn {
     display: flex;
-        width: 75px;
-        height: 30px;
-        padding: 10px 0px;
-border-radius: 2px;
-    border: 1px solid #0C0C0E;
+    justify-content: space-between;
+    width: 170px;
+    margin: 0;
+    margin-left: auto;
+   
 }
-
-
-#sign_up-button {
-    color: #000;
-    width: 242px;
-    height: 44px;
-    padding: 10px 40px;
+.buttonn {
+    display: flex;
+    width: 75px;
+    height: 30px;
     cursor: pointer;
     transition: 0.2s;
+    
+}
+.buttonn button {
+    width: 100px;
+    background-color: #FFF;
+
+}
+.buttonn span {
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1px;
+    margin: 0;
+ }
+#sign_up-buttonn {
+    color: #000;
+    width: 242px;
 }
 
-#sign_up:hover {
+#sign_up-buttonn:hover {
     background-color: #FFF;
     font-weight: bold;
     transition: 0.3s linear;
+    cursor: pointer;
 
 }
+.button::after {
+    width: 100%;
+    border-radius: 2px;
+    border: 1px solid #0C0C0E;
+}
+#log_in-buttonn {
+    color: #000;
+    width: 242px;
+}
 
+#log_in-buttonn:hover {
+    background-color: #FFF;
+    font-weight: bold;
+    transition: 0.3s linear;
+    cursor: pointer;
 
+}
+#Profile-buttonn {
+    color: #000;
+    width: 242px;
+}
+
+#Profile-buttonn:hover {
+    background-color: #FFF;
+    font-weight: bold;
+    transition: 0.3s linear;
+    cursor: pointer;
+
+}
+.footer {
+    display: block;
+    background-color: #0C0C0E;
+    width: 1440px;
+    height: 250px;
+    flex-shrink: 0;
+}
 /* end form style */
+
+
+/* footer style start */
+.Frame_6 {
+    display: flex;
+    width: 1400px;
+    height: 90px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
+    flex-shrink: 0;
+    padding: 20px;
+}
+.frame_6_p {
+    width: 229px;
+    flex-shrink: 0;
+}
+.frame_6_p p {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+} 
+
+/* footer style end */
 /* Digital Library Cards style end */
