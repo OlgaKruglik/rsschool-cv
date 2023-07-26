@@ -466,8 +466,8 @@ a.button:active {
 }
 .book_items {
     position: absolute;
-        bottom: -1px;
-        right: -40px;
+    bottom: -1px;
+    right: -40px;
 }
 .second_book_text_none {
     display: flex;
@@ -590,3 +590,167 @@ a.button:active {
 }
 
 /* Our Contacts style end */
+
+/* Digital Library Cards style start */
+
+.LibraryCards {
+    display: block;
+    width: 1420px;
+    height: 628px;
+}
+.find_card {
+    width: 600px;
+    height: 386px;
+    flex-shrink: 0;
+    padding:  0 20px;
+    margin-top: 61px;
+    display: flex;
+    justify-content: space-between;
+}
+.library_card {
+    display: block;
+}
+.find_card h4 {
+    font-family: Inter;
+    font-size: 30px;
+    font-weight: 400;
+    letter-spacing: 0.6px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.gold_bg {
+    width: 560px;
+    height: 272px;
+    flex-shrink: 0;
+    background: #BB945F;
+    padding: 20px 20px;
+}
+.whire_bg {
+    width: 600px;
+    height: 386px;
+    flex-shrink: 0;
+    border: 3px solid #BB945F;
+    background: #FFF;
+    padding: 20px;
+}
+/* start form style */
+
+.form-group {
+    margin-bottom: 10px;
+}
+
+.form-group label {
+    display: block;
+    color: #000;
+    font-family: Forum;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 50px;
+    letter-spacing: 0.6px;
+    margin-bottom: 20px;
+
+}
+
+.form-group input {
+    width: 300px;
+    padding: 5px;
+    border-radius: 2px;
+    border: 1px solid #0C0C0E;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    background: #FFF;
+    width: 100%;
+    width: 520px;
+    height: 66px;
+}
+
+.form-buttons {
+    display: inline-flex;
+    align-items: flex-end;
+    padding: 20px 139px;
+    margin-bottom: 10px;   
+}
+
+.form-buttons button {
+    width: 100px;
+    background-color: #FFF;
+    
+}
+
+
+#Check_the_card-button {
+    color: #000;
+    width: 242px;
+    height: 44px;
+    padding: 10px 40px;
+    cursor: pointer;
+    transition: 0.2s;
+ }
+
+#Check_the_card-button:hover {
+    background-color: #FFF;
+    font-weight: bold;
+    transition: 0.3s linear;
+
+}
+.get_a_card {
+    display: block;
+    width: 456px;
+    height: 253px;
+    flex-shrink: 0;
+    margin-left: 344px;
+    
+}
+.get_a_card p {
+    color: #000;
+    text-align: center;
+    font-family: Forum;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.6px;
+    text-align: right;
+    margin-bottom: 35px;
+}
+.get_a_card span {
+    color: #000;
+    text-align: right;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px; 
+    letter-spacing: 0.4px;
+    text-align: right;
+    margin-bottom: 35px;
+}
+.buttons {
+    display: flex;
+        width: 75px;
+        height: 30px;
+        padding: 10px 0px;
+border-radius: 2px;
+    border: 1px solid #0C0C0E;
+}
+
+
+#sign_up-button {
+    color: #000;
+    width: 242px;
+    height: 44px;
+    padding: 10px 40px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+#sign_up:hover {
+    background-color: #FFF;
+    font-weight: bold;
+    transition: 0.3s linear;
+
+}
+
+
+/* end form style */
+/* Digital Library Cards style end */
