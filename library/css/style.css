@@ -921,6 +921,10 @@ a.button:active {
     justify-content: center;
     flex-shrink: 0;
 }
+.rs-school p>a {
+    text-decoration: none;
+    color: #fff;
+}
 
 .username {
     display: flex;
@@ -932,7 +936,7 @@ a.button:active {
 }
 .username p>a {
     text-decoration: none;
-    color: #fff
+    color: #fff;
 }
 
 /* footer style end */
