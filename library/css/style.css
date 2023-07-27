@@ -930,7 +930,10 @@ a.button:active {
     justify-content: center;
     flex-shrink: 0;
 }
-
+.username p>a {
+    text-decoration: none;
+    color: #fff
+}
 
 /* footer style end */
 /* Digital Library Cards style end */
