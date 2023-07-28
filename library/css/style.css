@@ -428,6 +428,7 @@ html, body {
 }
 .bg-description p {
     width: 355px;
+    height: 320px;
     color: #000;
     font-family: Inter;
     font-size: 15px;
