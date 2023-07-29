@@ -439,31 +439,67 @@ html, body {
 }
 .button {
     margin: 24px 0;
+    flex-shrink: 0;
 }
-a.button {
-    color: #0C0C0E;
+
+#buy {
+    background-color: #FFF;
+    color: #000;
+    width: 75px;
+    height: 30px;
+    cursor: pointer;
+    transition: 0.2s;
     text-align: center;
     font-family: Inter;
     font-size: 10px;
     font-weight: 700;
     letter-spacing: 1px;
-    text-decoration: none;
-    padding: 9px 27px;
     border-radius: 2px;
     border: 1px solid #0C0C0E;
-    transition: 0.2s;
-    margin: 15px 0;
-}
-a.button:hover {
-    color: #BB945F;
-    text-decoration: underline;
-    border: 1px solid #BB945F;
+    
 }
 
-a.button:active {
+#buy:hover {
+    background-color: #FFF;
+    color: #BB945F;;
+    font-size: 11px;
+    font-weight: 900;
+    transition: 0.2s linear;
+    cursor: pointer;
+    border:2px solid #BB945F;;
+
+}
+
+#buy_own {
+    background-color: #FFF;
+    color: #000;
+    width: 75px;
+    height: 30px;
+    cursor: pointer;
+    transition: 0.2s;
+    text-align: center;
+    font-family: Inter;
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    border-radius: 2px;
+    border: 1px solid #0C0C0E;
+}
+
+
+#buy_own:hover {
+    background-color: #FFF;
     color: #BB945F;
-    text-decoration: underline;
-    border: 1px solid #BB945F;
+    ;
+    font-size: 11px;
+    font-weight: 900;
+    transition: 0.2s linear;
+    cursor: pointer;
+    border: 2px solid #BB945F;
+}
+.buy_own:disabled {
+    cursor: default;
+    color: #A44234;
 }
 .book_items {
     position: absolute;
@@ -702,6 +738,48 @@ a.button:active {
     transition: 0.3s linear;
 
 }
+
+.cards_profile {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+    margin: 0;
+}
+.visits_info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1px;
+}
+.visits_info p {
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    text-transform: capitalize;
+    margin: 0;
+    padding: 0;
+}
+.form-buttons {
+    display: inline-flex;
+    align-items: flex-end;
+    padding: 20px 139px;
+    margin-bottom: 10px;   
+}
+
+.form-buttons button {
+    width: 100px;
+    background-color: #FFF;
+    
+}
+
+
 
 /* form style end*/
 
