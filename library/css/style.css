@@ -50,7 +50,7 @@ html, body {
     max-width: 1440px;
     margin: auto;
    }
-.wraper {
+.wrapper {
     display: flex;
     justify-content: space-between;
     
@@ -63,7 +63,7 @@ html, body {
     top: 0;
     max-height: 600px;
 }
-.wraper_header {
+.wrapper_header {
     width: 1440px;
     justify-content: space-between;
     background-color: #0C0C0E;
@@ -191,7 +191,7 @@ html, body {
     padding-top: 220px;
 }
 
-.wraper_main {
+.wrapper_main {
     width: 600px;
     height: 220px;
     padding: 35px 40px;
@@ -428,6 +428,7 @@ html, body {
 }
 .bg-description p {
     width: 355px;
+    height: 320px;
     color: #000;
     font-family: Inter;
     font-size: 15px;
@@ -436,33 +437,40 @@ html, body {
     text-transform: capitalize;
     margin: 15px 0;
 }
-.button {
-    margin: 24px 0;
-}
-a.button {
-    color: #0C0C0E;
+
+.bg-description .button{
+    position: absolute;
+    bottom: 15px;
+    background-color: #FFF;
+    color: #000;
+    width: 75px;
+    height: 30px;
+    cursor: pointer;
+    transition: 0.2s;
     text-align: center;
     font-family: Inter;
     font-size: 10px;
     font-weight: 700;
     letter-spacing: 1px;
-    text-decoration: none;
-    padding: 9px 27px;
     border-radius: 2px;
     border: 1px solid #0C0C0E;
-    transition: 0.2s;
-    margin: 15px 0;
-}
-a.button:hover {
-    color: #BB945F;
-    text-decoration: underline;
-    border: 1px solid #BB945F;
+    
 }
 
-a.button:active {
-    color: #BB945F;
-    text-decoration: underline;
-    border: 1px solid #BB945F;
+.bg-description .button:not(:disabled):hover{
+    background-color: #FFF;
+    color: #BB945F;;
+    font-size: 11px;
+    font-weight: 900;
+    transition: 0.2s linear;
+    cursor: pointer;
+    border:2px solid #BB945F;;
+
+}
+.bg-description .button:disabled {
+    cursor: default;
+    color: #808080;
+    border-color: #808080;
 }
 .book_items {
     position: absolute;
@@ -473,6 +481,7 @@ a.button:active {
     display: flex;
     display: none;
 }
+
 /* favorites-items style end */
 /* Favorites style end */
 
@@ -638,7 +647,7 @@ a.button:active {
     margin-bottom: 10px;
 }
 
-.form-group label {
+.form-group .title {
     display: block;
     color: #000;
     font-family: Forum;
@@ -651,25 +660,22 @@ a.button:active {
 }
 
 .form-group input {
-    width: 300px;
-    padding: 5px;
-    border-radius: 2px;
+    padding: 8px 20px;
     border: 1px solid #0C0C0E;
     margin-bottom: 20px;
     border-radius: 10px;
     background: #FFF;
     width: 100%;
-    width: 520px;
     height: 66px;
-}
-.form-group input::placeholder {
-    color: #8E8E8E;
     font-family: Forum;
     font-size: 30px;
     font-style: normal;
     font-weight: 400;
     line-height: 50px;
     letter-spacing: 0.6px;
+}
+.form-group input::placeholder {
+    color: #8E8E8E;
 }
 
 .form-buttons {
@@ -693,6 +699,8 @@ a.button:active {
     padding: 10px 40px;
     cursor: pointer;
     transition: 0.2s;
+    border-radius: 2px;
+    border: 1px solid #0C0C0E;
  }
 
 #Check_the_card-button:hover {
@@ -701,6 +709,48 @@ a.button:active {
     transition: 0.3s linear;
 
 }
+
+.cards_profile {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+    margin: 0;
+}
+.visits_info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1px;
+}
+.visits_info p {
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    text-transform: capitalize;
+    margin: 0;
+    padding: 0;
+}
+.form-buttons {
+    display: inline-flex;
+    align-items: flex-end;
+    padding: 20px 139px;
+    margin-bottom: 10px;   
+}
+
+.form-buttons button {
+    width: 100px;
+    background-color: #FFF;
+    
+}
+
+
 
 /* form style end*/
 
@@ -740,7 +790,7 @@ a.button:active {
     letter-spacing: 0.4px;
     margin-bottom: 35px;
 }
-.form_buttonn {
+.form_button {
     display: flex;
     justify-content: space-between;
     width: 170px;
@@ -748,55 +798,32 @@ a.button:active {
     margin-left: auto;
    
 }
-.buttonn {
-    display: flex;
+.form_button button {
     width: 75px;
     height: 30px;
     cursor: pointer;
     transition: 0.2s;
-    
-}
-.buttonn button {
-    width: 100px;
     background-color: #FFF;
-
-}
-.buttonn span {
+    color: #000;
+    border-radius: 2px;
+    border: 1px solid #0C0C0E;
     font-size: 10px;
     font-style: normal;
-    font-weight: 700;
+    font-weight: 500;
     line-height: normal;
     letter-spacing: 1px;
     margin: 0;
+}
+.form_button button:hover {
+    font-weight: 900;
+    transition: 0.3s linear;
  }
-#sign_up-buttonn {
-    color: #000;
-    width: 242px;
-}
 
-#sign_up-buttonn:hover {
+#sign_up-button:hover {
     background-color: #FFF;
     font-weight: bold;
     transition: 0.3s linear;
     cursor: pointer;
-
-}
-.button::after {
-    width: 100%;
-    border-radius: 2px;
-    border: 1px solid #0C0C0E;
-}
-#log_in-buttonn {
-    color: #000;
-    width: 242px;
-}
-
-#log_in-buttonn:hover {
-    background-color: #FFF;
-    font-weight: bold;
-    transition: 0.3s linear;
-    cursor: pointer;
-
 }
 #Profile-buttonn {
     color: #000;
