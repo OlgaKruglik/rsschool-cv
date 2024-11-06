@@ -18,6 +18,7 @@
         <li>Email: <a href="mailto:olyakrug88@gmail.com">olyakrug88@gmail.com</a></li>
         <li><a href="https://t.me/olgakruglic">Telegram</a></li>
         <li><a href="https://join.skype.com/invite/z5dhSd4g67l1">Skype</a></li>
+        <li><a href="https://discordapp.com/users/1121035514687000616">Discord</a></li>
     </ul>
 </details>
 
@@ -75,3 +76,13 @@ I am an aspiring Frontend developer.  I am actively exploring new tools and appr
         </div>
     </div>
 ```
+## <span style="color: teal;">my projects</span>
+<details>
+    <summary>Click to expand</summary>
+    <ul>
+        <li><a href="https://github.com/OlgaKruglik/movies-api">movies-api</a></li>
+        <li><a href="https://best-aplication-srp3-n43uduufg-olgakrugliks-projects.vercel.app/">best-aplication</a></li>
+        <li>TypeScript </li>
+        <li>Webpack</li>
+    </ul>
+</details>
