@@ -82,7 +82,5 @@ I am an aspiring Frontend developer.  I am actively exploring new tools and appr
     <ul>
         <li><a href="https://github.com/OlgaKruglik/movies-api">movies-api</a></li>
         <li><a href="https://best-aplication-srp3-n43uduufg-olgakrugliks-projects.vercel.app/">best-aplication</a></li>
-        <li>TypeScript </li>
-        <li>Webpack</li>
     </ul>
 </details>
